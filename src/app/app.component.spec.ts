@@ -23,7 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'angular-navbar'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-navbar');
+    expect(app.name).toEqual('angular-navbar');
   });
 
   it('should render title', () => {
